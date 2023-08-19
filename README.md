@@ -1,6 +1,6 @@
 ## Introduction
 
-This system was developed for a startup working on smart flower pots. It offers an all-in-one solution to monitor and manage various environmental parameters such as light, temperature, and soil moisture in real time. The focus is on creating an interactive and intelligent system for flower pots that can send notifications, control LEDs, adjust servo states, provide visual feedback on an OLED screen, and much more, based on sensor readings and user preferences.
+This system was developed for a startup working on smart flower pots. It offers an all-in-one solution to monitor and manage various environmental parameters such as light, temperature, and soil moisture in real time. The focus is on creating an interactive and intelligent system for flower pots that can send notifications, control LEDs, adjust Water Pump states, provide visual feedback on an OLED screen, and much more, based on sensor readings and user preferences.
 
 ## Table of Contents
 
@@ -15,7 +15,7 @@ This system was developed for a startup working on smart flower pots. It offers 
 
 - **Sensor Management**: Handles readings from LDR, temperature, and soil moisture sensors.
 - **Bluetooth Communication**: Sends commands and receives sensor data via BLE.
-- **Servo and LED Control**: Dynamically controls servo states and RGB LEDs.
+- **Water Pump and LED Control**: Dynamically controls Water Pump states and RGB LEDs.
 - **Visual Feedback**: Displays happy/sad faces on an OLED screen based on conditions.
 - **Threaded Execution**: Runs multiple concurrent threads for seamless operation.
 - **Exception Handling**: Robust error handling for ease of debugging.
@@ -26,21 +26,19 @@ This system was developed for a startup working on smart flower pots. It offers 
 - MicroPython-compatible microcontroller
 - Supported sensors (LDR, temperature, soil moisture)
 - OLED display
-- RGB LED, Servo motor
+- RGB LED, Water Pump motor
 - BLE support
 
 ## Installation
 
 Below is the list of modules used in this project and their corresponding pin connections:
 
-- **Light Dependent Resistor (LDR)**: Pin X
-- **Temperature Sensor (DHT22)**: Pin Y
-- **Soil Moisture Sensor**: Pin Z
-- **OLED Display**: Pin A, Pin B
-- **RGB LED**: Pin C, Pin D, Pin E
-- **Servo Motor**: Pin F
-- **Bluetooth Low Energy (BLE)**: Pin G, Pin H
-- **Water Pump**: Pin I
+- **Light Dependent Resistor (LDR)**: Pin 34
+- **Temperature Sensor (DHT22)**: Pin 18
+- **Soil Moisture Sensor**: Pin 32
+- **OLED Display**: Pin 22, Pin 21
+- **RGB LED**: Pin 5, Pin 17, Pin 16
+- **Water Pump**: Pin 4
 
 
 ## Usage

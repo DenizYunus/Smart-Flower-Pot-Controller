@@ -1,4 +1,4 @@
-#COMMANDS API
+#COMMANDS API (DEPRECATED)
     # "c" - Calibrate
     # "v" Values Array - usage: (0, 1, 2, 3) 0=ldr%, 1=dht(C), 2=ds18b20(C), 3=moisture% (rangestart), (rangeend), (0, 1) 0=led, 1= notification, rgb led values/notification text - again" - example: "v0;50;80;0;255,255,255-1;30;40;1;bildirim metni buuu"
     # "r" - Required Light Required Moisture - example: "r60r45"
