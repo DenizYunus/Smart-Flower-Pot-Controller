@@ -1,0 +1,1 @@
+{"reqLight": 80, "minLDR": 706, "minMoist": 254, "maxLDR": 3568, "maxMoist": 592, "values": "0;0;30;0;255,0,0-0;30;60;0;0,255,0-0;60;200;0;0,0,255", "reqMoist": 70}
